@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/axios': ^0.14.0
   '@types/jest': ^29.0.3
+  '@types/nedb': ^1.8.12
   '@types/node': ^18.7.23
   axios: ^0.27.2
   jest: ^29.1.1
@@ -17,6 +18,7 @@ dependencies:
 devDependencies:
   '@types/axios': 0.14.0
   '@types/jest': 29.0.3
+  '@types/nedb': 1.8.12
   '@types/node': 18.7.23
   axios: 0.27.2
   jest: 29.1.1_sqkfeep4fedqlsauso44ecfrx4
@@ -744,6 +746,12 @@ packages:
     dependencies:
       expect: 29.1.0
       pretty-format: 29.1.0
+    dev: true
+
+  /@types/nedb/1.8.12:
+    resolution: {integrity: sha512-ICDoQMORMjOSqfNFXT4ENXfwwCir1BPblXNm0SPH7C4Q10ou+pvVagcFAJ+rrzf3A47tGU4K/KbzKu7wO9j45Q==}
+    dependencies:
+      '@types/node': 18.7.23
     dev: true
 
   /@types/node/18.7.23:

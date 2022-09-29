@@ -1,4 +1,3 @@
-import { mocked } from 'ts-jest/utils'
 import { Launcher } from '../app/Launcher';
 import { Server } from '../app/Server/Server';
 
@@ -15,10 +14,9 @@ jest.mock('../app/Server/Server', () => {
 })
 
 describe('Launcher test suite', () => {
-    const mockedServer = mocked(Server, true);
     test('create server', () => {
         new Launcher();
-        expect(mockedServer).toBeCalled();
+        expect(Server).toBeCalled();
     });
 
     test('launch app', () => {

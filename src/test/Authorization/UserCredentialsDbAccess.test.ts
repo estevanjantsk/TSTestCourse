@@ -1,6 +1,6 @@
 import { UserCredentialsDbAccess } from "../../app/Authorization/UserCredentialsDbAccess";
 import { UserCredentials } from "../../app/Models/ServerModels";
-import * as Nedb from 'nedb';
+import Nedb from 'nedb';
 jest.mock('nedb');
 
 describe('UserCredentialsDbAccess test suite', () => {

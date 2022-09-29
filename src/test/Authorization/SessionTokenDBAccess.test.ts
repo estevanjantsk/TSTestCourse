@@ -1,5 +1,5 @@
 import { SessionTokenDBAccess } from "../../app/Authorization/SessionTokenDBAccess";
-import * as Nedb from 'nedb';
+import Nedb from 'nedb';
 import { SessionToken } from "../../app/Models/ServerModels";
 jest.mock('nedb');
 

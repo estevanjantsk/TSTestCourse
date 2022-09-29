@@ -1,6 +1,6 @@
 import { UsersDBAccess } from "../../app/Data/UsersDBAccess";
 import { User, WorkingPosition } from "../../app/Models/UserModels";
-import * as Nedb from 'nedb';
+import Nedb from 'nedb';
 jest.mock('nedb');
 
 describe('UsersDBAccess test suite', () => {

@@ -1,4 +1,4 @@
-import * as Nedb from 'nedb';
+import Nedb from 'nedb';
 import { User } from '../Models/UserModels';
 
 export class UsersDBAccess {
